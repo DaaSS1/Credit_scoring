@@ -101,8 +101,8 @@
 
 1. Клонируем репозиторий:
    ```bash
-   git clone https://github.com/<your_username>/<repo_name>.git
-   cd <repo_name>
+   git clone https://github.com/DaaSS1/Credit_scoring.git
+   cd Credit_scoring
    ```
 2. Создаём и активируем виртуальное окружение (по желанию):
    ```bash
@@ -111,11 +111,7 @@
    # или
    venv\Scripts\activate     # Windows
    ```
-3. Устанавливаем зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Запускаем ноутбук:
+3. Запускаем ноутбук:
    ```bash
    jupyter notebook Credit_scoring_final-1.ipynb
    ```
